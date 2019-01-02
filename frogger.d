@@ -1,0 +1,1 @@
+.\frogger.o: frogger.c

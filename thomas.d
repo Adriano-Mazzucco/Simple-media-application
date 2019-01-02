@@ -1,0 +1,1 @@
+.\thomas.o: thomas.c

@@ -1,0 +1,128 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+S:\coe718\project\good\Blinky.uvproj
+Project File Date:  11/29/2018
+
+<h2>Output:</h2>
+Build target 'LPC1700'
+linking...
+Program Size: Code=14724 RO-data=441968 RW-data=112 ZI-data=1344  
+".\Blinky.axf" - 0 Error(s), 0 Warning(s).
+</pre>
+</body>
+</html>
+ter3" was declared but never referenced
+        int counter1, counter2, counter3 = 0;
+Blinky.c(412): warning:  #177-D: variable "left_truck_y" was declared but never referenced
+        int left_truck_y = 250;
+Blinky.c(413): warning:  #177-D: variable "right_truck_y" was declared but never referenced
+        int right_truck_y = -100;
+Blinky.c(672): warning:  #1-D: last line of file ends without a newline
+  }
+Blinky.c: 5 warnings, 0 errors
+linking...
+Program Size: Code=14724 RO-data=441968 RW-data=112 ZI-data=1344  
+".\Blinky.axf" - 0 Error(s), 5 Warning(s).
+Load "S:\\coe718\\project\\good\\Blinky.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+sted comment is not allowed
+     if (ticks++ >= 9) {                       /* Set Clock1s to 10ms 
+IRQ.c(38): warning:  #9-D: nested comment is not allowed
+    /* Blink the LEDs depending on ADC_ConvertedValue                           
+IRQ.c: 3 warnings, 0 errors
+compiling GLCD_SPI_LPC1700.c...
+compiling ADC.c...
+compiling KBD.c...
+KBD.h(30): warning:  #1-D: last line of file ends without a newline
+  #endif 
+KBD.c(47): warning:  #1-D: last line of file ends without a newline
+  } 
+KBD.c: 2 warnings, 0 errors
+compiling tower.c...
+compiling wham.c...
+compiling usbuser.c...
+compiling usbhw.c...
+compiling usbdesc.c...
+compiling usbcore.c...
+compiling adcuser.c...
+compiling Turtle.c...
+compiling thomas.c...
+compiling frog.c...
+frog.c(8): warning:  #177-D: variable "frog" was declared but never referenced
+  } frog = {
+frog.c: 1 warning, 0 errors
+compiling frogger.c...
+compiling lefttruck.c...
+compiling righttruck.c...
+righttruck.c(230): warning:  #1-D: last line of file ends without a newline
+    "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377");
+righttruck.c: 1 warning, 0 errors
+compiling pacman.c...
+linking...
+Program Size: Code=14660 RO-data=441968 RW-data=112 ZI-data=1344  
+".\Blinky.axf" - 0 Error(s), 12 Warning(s).
+Load "S:\\coe718\\project\\good\\Blinky.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Erase Failed!
+Error: Flash Download failed  -  "Cortex-M3"
+3): error:  #20: identifier "frog_y" is undefined
+                        frog_y = frog_y + 30;
+Blinky.c(474): error:  #20: identifier "frog_x" is undefined
+                                        GLCD_Bitmap (frog_y,frog_x,40,40,frogger);
+Blinky.c(480): error:  #268: declaration may not appear after executable statement in block
+  int main (void) {
+Blinky.c(409): warning:  #177-D: variable "counter3" was declared but never referenced
+        int counter1, counter2, counter3 = 0;
+Blinky.c(480): error:  #67: expected a "}"
+  int main (void) {
+Blinky.c(588): warning:  #1-D: last line of file ends without a newline
+  }
+Blinky.c: 3 warnings, 19 errors
+compiling IRQ.c...
+KBD.h(30): warning:  #1-D: last line of file ends without a newline
+  #endif 
+IRQ.c(33): warning:  #9-D: nested comment is not allowed
+     if (ticks++ >= 9) {                       /* Set Clock1s to 10ms 
+IRQ.c(38): warning:  #9-D: nested comment is not allowed
+    /* Blink the LEDs depending on ADC_ConvertedValue                           
+IRQ.c: 3 warnings, 0 errors
+compiling GLCD_SPI_LPC1700.c...
+compiling ADC.c...
+compiling KBD.c...
+KBD.h(30): warning:  #1-D: last line of file ends without a newline
+  #endif 
+KBD.c(47): warning:  #1-D: last line of file ends without a newline
+  } 
+KBD.c: 2 warnings, 0 errors
+compiling tower.c...
+compiling wham.c...
+compiling usbuser.c...
+compiling usbhw.c...
+compiling usbdesc.c...
+compiling usbcore.c...
+compiling adcuser.c...
+compiling Turtle.c...
+compiling thomas.c...
+compiling frog.c...
+frog.c(8): warning:  #177-D: variable "frog" was declared but never referenced
+  } frog = {
+frog.c: 1 warning, 0 errors
+compiling frogger.c...
+compiling lefttruck.c...
+compiling righttruck.c...
+righttruck.c(230): warning:  #1-D: last line of file ends without a newline
+    "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377");
+righttruck.c: 1 warning, 0 errors
+".\Blinky.axf" - 19 Error(s), 10 Warning(s).
+Target not created
+Load "S:\\coe718\\project\\good\\Blinky.axf" 
+_____^
+*** error 56: cannot open file
+Error: Flash Download failed  -  Could not load file 'S:\coe718\project\good\Blinky.axf'

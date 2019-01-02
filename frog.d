@@ -1,0 +1,1 @@
+.\frog.o: frog.c

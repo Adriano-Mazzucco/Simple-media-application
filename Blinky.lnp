@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+".\startup_lpc17xx.o"
+".\system_lpc17xx.o"
+".\led.o"
+".\blinky.o"
+".\irq.o"
+".\glcd_spi_lpc1700.o"
+".\adc.o"
+".\kbd.o"
+".\tower.o"
+".\wham.o"
+".\usbuser.o"
+".\usbhw.o"
+".\usbdesc.o"
+".\usbcore.o"
+".\adcuser.o"
+".\turtle.o"
+".\thomas.o"
+".\frog.o"
+".\frogger.o"
+".\lefttruck.o"
+".\righttruck.o"
+".\pacman.o"
+--strict --scatter ".\Blinky.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Blinky.map" -o .\Blinky.axf
